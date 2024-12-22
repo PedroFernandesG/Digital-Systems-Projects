@@ -22,7 +22,7 @@ reg Display = 0;      // Flag to activate/deactivate the display
 wire [2:0] State;
 reg [2:0] State_prev;
 
-Botton button(
+Button button(
     .clk(clk),
     .ButtonStart(ButtonStart),
     .ButtonReset(ButtonReset),
